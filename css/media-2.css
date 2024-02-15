@@ -1,0 +1,288 @@
+
+@media(max-width: 1800px) {
+  .hero__block {
+    padding-right: 0;
+  }
+
+  .hero__paragraph {
+    width: 900px;
+  }
+
+  .stages__paragraph {
+    max-width: 720px;
+  }
+
+  .stages__span {
+    width: 100%;
+  }
+
+  .stages__right-block {
+    min-width: 667px;
+  }
+
+  .about-us__left-block-wrapper {
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .about-us__left-block-paragraph  {
+    min-width: 266px;
+  }
+
+  .footer__container {
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .left__footer {
+    margin-right: 50px;
+  }
+
+  .footer__form-block {
+    margin-right: 30px;
+  }
+}
+
+@media(max-width: 1500px) {
+  .about-us__block {
+    flex-direction: column;
+  }
+
+  .about-us__left-block {
+    max-width: 100%;
+  }
+
+  .about-us__right-blocks {
+    max-width: 100%;
+  }
+
+  .about-us__right-block-paragraph {
+    width: 60%;
+  }
+
+  .about-us__left-block-paragraph {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .question__list {
+    gap: 18px;
+  }
+
+  .question__item {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .question__heading {
+    max-width: 100%;
+  }
+
+  .question__paragraph {
+    max-width: 100%;
+  }
+
+  .footer__text {
+    display: none;
+  }
+}
+
+/*
+@media(max-width: 1400px) {
+  .stages__paragraph {
+    max-width: 720px;
+  }
+
+  .stages__span {
+    width: 100%;
+  }
+
+  .about-us__right-blocks {
+    padding: 60px;
+    padding-right: 20px;
+    background: none;
+  }
+
+  .about-us__left-block-wrapper {
+    flex-direction: column;
+    min-width: 634px;
+  }
+
+  .about-us__right-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background: none;
+  }
+
+  .footer__text {
+    display: none;
+  }
+
+  .footer__form-block {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .question__list {
+    gap: 18px;
+  }
+} */
+/*
+@media(max-width: 1200px) {
+  .about-us__block {
+    flex-direction: column;
+  }
+
+  .about-us__left-block {
+    max-width: 100%;
+  }
+
+  .about-us__left-block-wrapper {
+    flex-direction: row;
+  }
+
+  .about-us__right-block--box-1--background-1 {
+    background-image: url('../img/bg-1.svg');
+  }
+
+  .about-us__right-block--box-2--background-2 {
+    background-image: url('../img/bg-2.svg');
+  }
+
+  .about-us__right-blocks {
+    max-width: 100%;
+    padding: 60px 30px 58px 300px;
+    background-position: 59px 61px;
+    background-repeat: no-repeat
+  }
+
+  .question__item {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .question__heading {
+    max-width: 100%;
+  }
+
+  .question__paragraph {
+    max-width: 100%;
+  }
+} */
+
+@media(max-width: 1024px) {
+  .header__logo-img {
+    width: 140px;
+  }
+
+  .header__nav {
+    margin-right: 50px;
+  }
+
+  .header__list {
+    gap: 55px;
+  }
+
+  .hero__block {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .hero__title {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .hero__paragraph {
+    max-width: 660px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .left__footer {
+    margin-right: 0px;
+  }
+
+  .hero__block {
+    padding-left: 40px;
+  }
+
+  .stages__right-block {
+    min-width: 430px;
+  }
+
+  .footer__container {
+    padding: 50px;
+  }
+}
+
+@media(max-width: 932px) {
+
+  .header__logo-img {
+    max-width: 110px;
+  }
+
+  .header__link {
+    font-size: 16px;
+  }
+
+  .hero__title {
+    max-width: 588px;
+    font-size: 50px;
+  }
+
+  .stages__content {
+    flex-direction: column-reverse;
+    gap: 38px;
+  }
+
+  .stages-right-block__wrapper {
+    height: 284px;
+    max-width: 100%;
+    padding-top: 10px;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .form__wrapper {
+    max-width: 610px;
+  }
+}
+
+@media(max-width: 768px) {
+  .header__list {
+    gap: 40px;
+  }
+
+  .about-us__right-blocks {
+    padding-left: 170px;
+    background-size: 114px;
+    background-position: 30px;
+  }
+
+  .footer__container {
+    padding-left: 50px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .hero__paragraph {
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+

@@ -52,6 +52,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  /* border: 1px solid green; */
 }
 
 body {
@@ -133,12 +134,17 @@ body {
 }
 
 .header__container {
-  padding: 14px 0;
+  justify-content: space-between;
+  padding: 14px;
   padding-left: 15px;
 }
 
-.header__logo-url {
-  margin-right: 822px;
+.header__picture {
+  max-width: 225px;
+}
+
+.header__right {
+  display: flex;
 }
 
 .header__nav {
@@ -231,6 +237,7 @@ body {
 .hero__block {
   display: flex;
   flex-direction: column;
+  width: 100%;
   height: min-content;
   padding: 100px 853px 100px 80px;
   border-radius: 32px;
@@ -240,7 +247,7 @@ body {
 }
 
 .hero__title {
-  max-width: 837px;
+  width: 837px;
   margin-bottom: 23px;
   font-size: 70px;
   font-weight: 800;
@@ -249,6 +256,7 @@ body {
 }
 
 .hero__paragraph {
+  width: 837px;
   margin-bottom: 90px;
   font-size: 24px;
   font-weight: 700;
@@ -258,6 +266,7 @@ body {
 
 .hero__btn {
   align-self: flex-start;
+  min-width: 282px;
   padding: 25px 39px;
   border: none;
   border-radius: 16px;
@@ -294,7 +303,6 @@ body {
 }
 
 .about-us__paragraph {
-  min-width: 1240px;
   max-width: 1250px;
   margin-bottom: 52px;
   font-size: 16px;
@@ -448,14 +456,14 @@ body {
 
 .stages__span {
   display: block;
-  width: 750px;
+  max-width: 750px;
   font-size: 16px;
   font-weight: 400;
   line-height: 200%;
 }
 
 .stages__span-1 {
-  width: 720px;
+  max-width: 720px;
 }
 
 @media(max-width: 1200px) {
@@ -530,23 +538,24 @@ body {
 
 .stages__content {
   display: flex;
-  gap: 138px;
   flex-grow: 2;
+  justify-content: space-between;
 }
 
 .stages__left-block {
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  margin-right: 50px;
 }
 
 .stages-right-block__wrapper {
+  width: 870px;
   padding-top: 10px;
 }
 
 .stages__right-block {
   flex-grow: 2;
-  width: 870px;
+  width: 100%;
   border-radius: 30px;
   background-image: url('../img/stages__background.png');
   background-size: cover;
@@ -600,14 +609,16 @@ body {
 
 .footer__container {
   display: flex;
-  width: 1770px;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 1800px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 50px 15px;
 }
 
 .left__footer {
   flex-direction: column;
-  margin-right: 340px;
+  margin-right: 220px;
   padding-left: 1px;
 }
 
@@ -711,7 +722,6 @@ body {
   flex-direction: column;
   gap: 26px;
   min-width: 600px;
-  margin-right: 190px;
 }
 
 .footer__form {
@@ -883,6 +893,7 @@ body {
   display: block;
   max-width: 430px;
   padding-top: 90px;
+  padding-left: 80px;
   margin: 0;
   /* padding-bottom: 43px; */
   font-size: 16px;
